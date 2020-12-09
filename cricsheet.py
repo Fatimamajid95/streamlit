@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np 
-import plotly
 plotly.offline.init_notebook_mode(connected=True)
 import plotly.offline as py
 import plotly.express as px
