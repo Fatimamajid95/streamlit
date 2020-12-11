@@ -1,3 +1,11 @@
+__main__
+_abc
+_io
+_py_abc
+_weakref
+_weakrefset
+abc
+io
 certifi==2020.12.5
 colorama==0.4.4
 cycler==0.10.0
