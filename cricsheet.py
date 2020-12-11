@@ -9,8 +9,8 @@ import io
 import seaborn as sns
 from wordcloud import WordCloud, STOPWORDS
 
-Deliveries_url = (r"C:\Users\Fatima Majid\NEO BANK\deliveries.csv")
-Matches_url = (r"C:\Users\Fatima Majid\NEO BANK\matches.csv")
+Deliveries_url = ("deliveries.csv")
+Matches_url = ("matches.csv")
 
 st.image("https://www.searchpng.com/wp-content/uploads/2019/02/IPL-Logo-PNG.png", width=80)
 st.sidebar.image("https://www.searchpng.com/wp-content/uploads/2019/02/IPL-Logo-PNG.png", width=80)
