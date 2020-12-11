@@ -44,12 +44,12 @@ Cdata = data2.fillna("missing")
 Cdata = Cdata['date'] = Cdata['date'].astype('datetime64[ns]')
 Cdata = data2.sort_values(by = ['season'])
 
-st.sidebar.markdown("Here visulizations are being done on two sets of data:")
+st.sidebar.markdown("Here visualizations are being done on two sets of data:")
 st.sidebar.markdown("Source: cricsheet dataset posted on Kaggle")
 
 
 if st.sidebar.checkbox("Show", True):
-    Deliveries = st.sidebar.checkbox("Display Deiveries Data")
+    Deliveries = st.sidebar.checkbox("Display Deliveries Data")
     if Deliveries:
         st.write(data.head(1000))
 
@@ -72,6 +72,8 @@ else:
 players1 = st.sidebar.multiselect('Search/Choose any one batsman, to see visualizations from Deliveries dataset.', data['batsman'].unique())
 
 new_data = data[(data['batsman'].isin(players1))]
+
+st.markdown("Please select any player from the sidebar")
 
 fig1 = px.bar(new_data, x='over' , y='batsman_runs', color= 'ball', hover_name = 'batsman', barmode= "group", height=600)
 fig1.update_layout(title_text = "Bar plot showing total runs in an over made by the selected player")
