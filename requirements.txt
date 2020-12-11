@@ -1,11 +1,3 @@
-__main__
-_abc
-_io
-_py_abc
-_weakref
-_weakrefset
-abc
-io
 certifi==2020.12.5
 colorama==0.4.4
 cycler==0.10.0
@@ -43,3 +35,10 @@ wincertstore==0.2
 wordcloud==1.8.1
 yarg==0.1.9
 zipp==3.4.0
+_abc
+_io
+_py_abc
+_weakref
+_weakrefset
+abc
+io
