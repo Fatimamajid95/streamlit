@@ -122,5 +122,11 @@ if st.sidebar.checkbox("Open", True, key='3'):
     plt.xticks([])
     plt.yticks([])
     st.pyplot(fig9)
-    
+ 
+
+
+
+
+
+
 st.markdown("Project made by Fatima Majid using Streamlit")
