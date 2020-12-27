@@ -123,4 +123,4 @@ if st.sidebar.checkbox("Open", True, key='3'):
     plt.yticks([])
     st.pyplot(fig9)
     
-st.markdown("Made with") st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png", width=80) st.markdown("using streamlit by Fatima Majid")
+st.markdown("Project made by Fatima Majid using Streamlit")
