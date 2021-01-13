@@ -75,7 +75,7 @@ new_data = data[(data['batsman'].isin(players1))]
 
 st.markdown("<Kindly select any player from the sidebar>")
 
-fig1 = px.bar(new_data, x='batsman' , y='batsman_runs', color= 'ball')
+fig1 = px.bar(new_data, x='batsman' , y='batsman_runs', color= 'over')
 fig1.update_layout(title_text = "Bar plot showing total runs in an over made by the selected player")
 st.plotly_chart(fig1)
 
